@@ -4,3 +4,7 @@ We intend to create a web app that orchestrates lending and borrowing use case b
 Bare-Bones screenshots:
 
 ![alt tag](https://github.com/manassharma/Lend-and-Borrow-web-app/blob/master/indexScreenshot.jpg)
+
+![alt tag](https://github.com/manassharma/Lend-and-Borrow-web-app/blob/master/contactUsScreenshot.jpg)
+
+![alt tag](https://github.com/manassharma/Lend-and-Borrow-web-app/blob/master/aboutUsScreenshot.jpg)
