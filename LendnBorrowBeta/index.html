@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lend N Borrow</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <style>
+        .jumbotron{
+            background-color: mediumpurple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="contactUs" align="right">
+    <p>
+        <a href="#" class="btn btn-default btn-lg" id="about" onclick="navigateToAbout()">about</a>
+        <a href="#" class="btn btn-default btn-lg" id="contactUs" onclick="moveToContactUs()">contact</a>
+    </p>
+</div>
+<div class="page-header">
+    <h1>Welcome to Lend n Borrow</h1>
+</div>
+
+<div class="jumbotron" align="center">
+    <p>
+        <img src="22-512.png"/>
+        <img src="books-stack-of-three_318-45543.jpg"/>
+        <img src="cogwheels-laptop-wallpaper_318-39520.jpg"/>
+        <img src="pen-stationery-icon-68796.png"/>
+    </p>
+
+</div>
+
+<div class="signIn" align="center">
+    <p>
+        <input type="text" value="email" id="email" onClick="clearEmailBox()" onmousedown="enableSignInButton()"/>
+        <input type="password" value="password" id="password" onClick="clearPasswordBox()" onmousedown="enableSignInButton()"/>
+        <button type="submit" class="btn btn-primary" disabled="disabled" id="signIn">Sign In</button>
+    </p>
+</div>
+
+<div class="signUp" align="center">
+    <p>
+        <button type="submit" class="btn btn-success" id="signUp">Sign Up</button>
+    </p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="enableSignIn.js"></script>
+<script src="pointerHandler.js"></script>
+</body>
+</html>
