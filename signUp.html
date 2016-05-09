@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <style>
+        .jumbotron{
+            background-color: mediumpurple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="Home" align="right">
+    <p>
+        <a href="#" class="btn btn-default btn-lg" id="home" style="background-color: mediumpurple; color: white" onclick="navigateToHome()">Home</a>
+    </p>
+</div>
+<div class="page-header">
+    <h2>Sign Up Form</h2>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <form role="form">
+            <div class="col-lg-6">
+                <div class="well well-sm"><strong><span style="color: red" class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+                <div class="form-group">
+                    <label for="InputName">Enter Name</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="inputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"><span style="color: red" class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="InputEmail">Enter Email</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="inputEmail" name="InputEmail" placeholder="Enter Email" required>
+                        <span class="input-group-addon"><span style="color: red" class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Enter Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="inputPassword" name="InputPassword" placeholder="Enter Password" required>
+                        <span class="input-group-addon"><span style="color: red" class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+                        <span class="input-group-addon"><span style="color: red" class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <button type="button" name="submit" id="submit" value="Submit" class="btn btn-primary">Submit</button>
+                <button type="button" name="submit" id="cancel" value="Cancel" class="btn btn-danger" onclick="clearForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="pointerHandler.js"></script>
+<script src="signUpFormHandler.js"></script>
+</body>
+</html>

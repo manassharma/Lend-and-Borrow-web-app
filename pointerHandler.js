@@ -12,3 +12,7 @@ function navigateToHome(){
 function navigateToAbout(){
     window.location="aboutUs.html";
 }
+
+function navigateToSignUp(){
+    window.location="signUp.html"
+}
